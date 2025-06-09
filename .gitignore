@@ -1,0 +1,18 @@
+#Ingore les builds globaux
+target/
+deployments/
+*.log
+
+#Conf Jenkins
+jenkins/jenkins_home/
+
+#Fichiers temp OS
+.DS_store
+Thumbs.db
+
+#Docker
+*.pid
+.env
+
+#cache
+.cache/
