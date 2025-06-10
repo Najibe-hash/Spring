@@ -11,6 +11,14 @@ services:
       - ./deployments:/deployments
     environment:
       - JAVA_OPTS=-Djenkins.install.runSetupWizard=false
+    user: root
+    entrypoint: >
+      bash -c "
+      apt-get update &&
+      apt-get install -y maven &&
+      chown -R jenkins:jenkins /var/jenkins_home &&
+      su jenkins -c '/usr/bin/tini -- /usr/local/bin/jenkins.sh'
+      "
 
   websphere:
     image: openliberty/open-liberty:latest
