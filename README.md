@@ -30,8 +30,8 @@ Ce projet est une application **Spring Boot** simple exposant une API REST (`/ap
 
 ### 1. Cloner le dépôt
 ```bash
-git clone https://github.com/<ton-user>/<ton-repo>.git
-cd <ton-repo>
+git clone https://github.com/Najibe-hash/Spring
+cd Spring/
 ```
 
 ### 2. Lancer les conteneurs
