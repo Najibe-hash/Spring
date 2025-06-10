@@ -1,24 +1,3 @@
-  
-Aucun élément sélectionné 
-
-Aller au contenu
-Utiliser Gmail avec un lecteur d'écran
-Conversations
-	
-	
-	
-moi 2
-	
-(aucun objet)
- - Le mar. 10 juin 2025 à 01:15, Najibe Visticot <najibe.visticot.sio@gmail.com> a écrit : [Pipeline] sh + curl -s http://websphere:9080/api/hello [Pipeline] echo
-Pièce jointe :README.md
-	
-	02:16
-	
-3 % sur 15 Go utilisés
-Conditions d'utilisation · Confidentialité · Règlement du programme
-Dernière activité sur le compte : il y a 0 minute
-Ce compte est ouvert depuis un autre emplacement. · Détails
 
 # 🚀 Spring Boot + Jenkins + Docker + Open Liberty
 
